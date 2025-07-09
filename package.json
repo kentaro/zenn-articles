@@ -1,5 +1,10 @@
 {
   "dependencies": {
-    "zenn-cli": "^0.1.161"
+    "textlint-rule-preset-ja-technical-writing": "^12.0.2",
+    "zenn-cli": "^0.1.162"
+  },
+  "devDependencies": {
+    "textlint": "^15.2.0",
+    "textlint-rule-preset-ai-writing": "^1.1.0"
   }
 }
