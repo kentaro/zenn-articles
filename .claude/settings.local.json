@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(//Users/antipop/src/github.com/kentaro/enikki/**)",
+      "Bash(cat:*)",
+      "Bash(git add:*)",
+      "Bash(git commit -m \"$(cat <<''EOF''\nAdd article: enikkiツールの紹介記事\n\n- Gemini 3を使った絵日記生成CLIツールの紹介\n- Quick モードの説明を追加\n- 設定ファイルについてドキュメントへの誘導を追加\n- APIコストの詳細を補足（画像サイズによるコスト差）\nEOF\n)\")",
+      "Bash(git push)",
+      "Bash(git commit:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
