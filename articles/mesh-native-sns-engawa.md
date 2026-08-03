@@ -1,5 +1,5 @@
 ---
-title: "メッシュVPNの中だけで動く分散SNS「Engawa」を作りました"
+title: "ElixirとNostrで、インターネットから見えない分散SNS「Engawa」を作りました"
 emoji: "🏡"
 type: "tech"
 topics: ["elixir", "nostr", "wireguard", "ゼロトラスト", "lolipop"]
