@@ -3,7 +3,7 @@ title: "メッシュVPNの中だけで動く分散SNS「Engawa」を作りまし
 emoji: "🏡"
 type: "tech"
 topics: ["elixir", "nostr", "wireguard", "ゼロトラスト", "lolipop"]
-published: false
+published: true
 publication_name: pepabo
 ---
 
