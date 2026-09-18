@@ -3,7 +3,7 @@ title: "判定特化モデルJevに将棋を指させて、どこまで勝てる
 emoji: "♟️"
 type: "tech"
 topics: ["ai", "jev", "shogi", "python", "lolipop"]
-published: false
+published: true
 publication_name: pepabo
 ---
 
