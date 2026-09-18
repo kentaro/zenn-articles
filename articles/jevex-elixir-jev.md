@@ -3,7 +3,7 @@ title: "Jevの判断をElixirの式として書ける「Jevex」を作りまし�
 emoji: "🧪"
 type: "tech"
 topics: ["elixir", "ai", "jev", "lolipop"]
-published: false
+published: true
 publication_name: pepabo
 ---
 
