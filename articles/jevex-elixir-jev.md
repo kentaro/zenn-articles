@@ -9,7 +9,7 @@ publication_name: pepabo
 
 TypeSafeの推論モデルJevをElixirから使うためのライブラリ、Jevexを作りました。文章を分類したり、緊急度を評価したりする処理を、いつもの`Enum`やパイプラインの中に書けます。
 
-[ソースコードとドキュメントはGitHubに置いています。](https://github.com/kentaro/jevex)
+ソースコードは[GitHub](https://github.com/kentaro/jevex)、パッケージは[Hex](https://hex.pm/packages/jevex)、APIドキュメントは[HexDocs](https://hexdocs.pm/jevex/0.1.0/)で公開しています。
 
 たとえば、問い合わせのうち対応が必要なものを拾い、担当チームごとにまとめる処理はこうなります。
 
@@ -80,14 +80,14 @@ end
 
 ## まずは公式APIにつなぐ
 
-JevexはElixir 1.17から1.20を対象にしており、手元ではElixir 1.20.2とOTP 29で動作を確認しています。
+JevexはElixir 1.17以降に対応しています。[GitHub Actions](https://github.com/kentaro/jevex/actions/runs/35348801602)では、Elixir 1.17／OTP 27とElixir 1.20／OTP 29でテスト、静的解析、ドキュメント生成、パッケージのビルドを確認しています。
 
-Hex向けのパッケージを用意していますが、この記事の執筆時点ではまだHexには公開していません。試す場合は、`mix.exs`にGitHubの依存を追加してください。以下は記事で扱う実装のコミットに固定しています。
+`mix.exs`の依存関係にJevexを追加します。
 
 ```elixir
 defp deps do
   [
-    {:jevex, github: "kentaro/jevex", ref: "0db6f16"}
+    {:jevex, "~> 0.1.0"}
   ]
 end
 ```
