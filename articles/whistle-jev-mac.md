@@ -24,6 +24,8 @@ https://github.com/kentaro/whistle
 
 デモでは、口笛でCodex、X、Google Chromeを開き、Xへ投稿するショートカットも実行しています。投稿処理はショートカット側に定義しています。
 
+以下のポストに添付した動画を再生して、デモをご覧ください。
+
 https://x.com/kentaro/status/2102382428392435837
 
 ## 音声から操作までの処理
